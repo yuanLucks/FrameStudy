@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans SYSTEM  "E:\shop-yuan\hello\Dtd\resources\factory.dtd">
+<beans>
+    <bean id="bossID" class="com.bean.User" scope="singlton">
+        <property name="id" value="1000" type="long"></property>
+        <property name="name" value="yuan"></property>
+        <property name="password" value="123"></property>
+        <property name="phone" value="13144103270"></property>
+        <property name="email" value="1749113841@qq.com"></property>
+    </bean>
+
+
+    <bean id="orderId" class="com.bean.Order">
+        <property name="orderNo" value="3165415146351"></property>
+    </bean>
+</beans>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans SYSTEM  "E:\shop-yuan\hello\text\resources\factory.dtd">
+<beans>
+    <bean id="one" class="User" scope="singlton">
+        <property name="id" value="1"></property>
+        <property name="name" value="yuan"></property>
+        <property name="price" value="12.30"></property>
+    </bean>
+
+
+
+</beans>
